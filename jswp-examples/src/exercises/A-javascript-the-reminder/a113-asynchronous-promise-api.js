@@ -1,3 +1,4 @@
+// const fetch = require('fetch');
 /**
 
  # Zadania:
@@ -33,5 +34,7 @@ fetchData(true)
   .finally(() => console.info('#  ---- finally 2 !'));
 
 
-
+// fetch('http://jsonplaceholder.typicode.com/users')
+//     .then((res) => res.json())
+//     .then((data) => console.log(data));
 

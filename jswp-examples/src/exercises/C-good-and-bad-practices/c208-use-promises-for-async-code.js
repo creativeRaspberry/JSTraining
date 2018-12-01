@@ -20,6 +20,9 @@ const dbAPI = {
 
   getUsersByName: function(name, callback) {
     const found = dbUsers.find(usr => usr.name === name);
+    return new Promise((resolve)=>
+      resolve(found|| [])
+    );
     callback(found || []);
   },
   getUserPhotos: function(userId, callback) {
@@ -43,3 +46,10 @@ dbAPI.getUsersByName('Michal', (user) => {
   })
 });
 
+// const MichalPhoto = dbAPI
+// .getUsersByName('Michal')
+// .then(user => {
+//     const userId = user.id;
+//     return dbAPI.getUserPhotos(userId);
+// })
+//  .then(photoList => ())

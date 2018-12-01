@@ -19,13 +19,13 @@ const cool = 'This is my ' + cooler + ' - you can buy it for ' + cost + 'zł';
 const templateCool = `This is my ${cooler} - you can buy it for ${cost}zł`;
 
 const interpolate = 'official suit';
-console.log(`
+const myString = `
   
   My
   multi-lined console.log is wearing an ${interpolate} !
   
-`);
+`;
 
 // Rozwiązanie
-
+console.log(JSON.stringify(myString));
 
