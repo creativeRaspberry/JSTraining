@@ -64,6 +64,11 @@ const catKeys = Object.keys(cat);
 // rozszerzenie obiektu:
 const extendedCat = Object.assign({}, cat, {breed: 'Persian'});
 
+console.log(cat.eyes);
+
+// const cat2 = Object.assign((),cat);
+// console.log(allLowerThan10);
+
 // ES8 --------------
 // tablica wartości danego obiektu
 const barrel = {

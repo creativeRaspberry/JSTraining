@@ -33,4 +33,15 @@ function callTheProduct() {
 
 // Rozwiązanie:
 
+const myProduct = callTheProduct();
+const myOtherProduct = callTheProduct();
 
+myProduct.getPrice();
+myOtherProduct.getPrice();
+
+myOtherProduct.changeProductName("freezer");
+
+myProduct.getPrice();
+myOtherProduct.getPrice();
+
+console.log(myOtherProduct.changeProductName("freezer"));
