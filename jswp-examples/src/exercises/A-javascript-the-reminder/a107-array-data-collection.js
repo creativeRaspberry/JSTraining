@@ -81,6 +81,7 @@ console.log('JessiCa is present?', lawyers.includes('JessiCa'));
   }
 * */
 const userOptions = 'login,name,lastName,profession';
+
 const isNotNullString = val => val !== 'null';
 // Rozwiązanie:
 // const reduceKeysToObject = (acc, value) => {
@@ -99,3 +100,9 @@ const user = userOptions.split(',')
 console.log(user);
 
 console.assert(isNotNullString('null'), 'String is a null');
+
+
+// Rozwiązanie:
+
+
+

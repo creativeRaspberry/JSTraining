@@ -45,3 +45,4 @@ myProduct.getPrice();
 myOtherProduct.getPrice();
 
 console.log(myOtherProduct.changeProductName("freezer"));
+

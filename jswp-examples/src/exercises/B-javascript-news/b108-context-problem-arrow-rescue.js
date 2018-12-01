@@ -13,8 +13,7 @@ function Lawyer ( name ) {
     console.log('Hello I\'m your lawyer, my name is', this.name)
   };
   this.introduceAfter = function (seconds) {
-
-    setTimeout(function () {
+    setTimeout() => {
       this.introduce();
     }, seconds * 1000);
   };
@@ -28,8 +27,11 @@ harvey.introduce();
 
 // Musisz czekać na swojego prawnika:
 // #! Co się stanie jeśli odkomentujemy linię poniżej?
-// louis.introduceAfter(1);
+ louis.introduceAfter(1);
 
 // Zadanie:
 // 1. Napraw wykorzystując arrow function
 // 2. Czy pamiętasz jak dawniej rozwiązywało się tego typu problemy z kontekstem?
+/*
+2. rozwiązanie = bindThis
+ */

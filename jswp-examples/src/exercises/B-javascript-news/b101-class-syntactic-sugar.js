@@ -9,19 +9,21 @@
 
  */
 
-/*
+
 class Vehicle {
   constructor () {
     this.name = 'vehicle';
   }
 }
-*/
 
-class NewCar {
 
-  constructor() {
+class NewCar extends Vehicle{
+
+  constructor(name) {
+    super();
     this.engine = 'V8';
-    this.name = 'Aston Martin Vantage';
+    // this.name = 'Aston Martin Vantage';
+    this.name = name || this.name;
   }
 
   makeSomeNoise() {

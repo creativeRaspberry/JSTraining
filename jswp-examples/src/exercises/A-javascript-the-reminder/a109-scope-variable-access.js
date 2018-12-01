@@ -18,12 +18,17 @@ const seekForThis = 'Good monday morning!';
     (function sonScope() {
       //
       (function grandsonScope() {
+
         var a = 'gosia';
         console.log(seekForThis);
+
+        // console.log(seekForThis);
+
       })();
     })();
   })();
 })();
+
 
 console.log(a);
 

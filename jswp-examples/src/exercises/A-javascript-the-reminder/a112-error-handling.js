@@ -27,5 +27,12 @@ function helloICanBreak(condition) {
   }
 }
 
-console.log(helloICanBreak(false));
-helloICanBreak(true);
+// console.log(helloICanBreak(false));
+// helloICanBreak(true);
+
+try {
+    helloICanBreak(true);
+} catch (e) {
+
+  console.error(e);
+}

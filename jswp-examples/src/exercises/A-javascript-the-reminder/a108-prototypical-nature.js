@@ -21,6 +21,7 @@ function SuperCar(name, engine, maxSpeed) {
 const myCar = new SuperCar('Audi', 'V8', 350);
 
 // Rozwiązanie:
+
 // myCar.logMeOut = function(){
 //   console.log(this);
 // }
@@ -28,6 +29,7 @@ const myCar = new SuperCar('Audi', 'V8', 350);
 SuperCar.prototype.logMeOut = function(){
   console.log(this);
 }
+
 
 // linia poniżej musi działać
 myCar.logMeOut();

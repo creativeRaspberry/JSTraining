@@ -24,5 +24,3 @@ function SuperCat() {
   this.myName = 'Super Cat';
   this.shoutName = composableFunc;
 }
-
-// Rozwiązania:
