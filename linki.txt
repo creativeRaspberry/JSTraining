@@ -9,4 +9,11 @@ Angular - component dostaje w dependency serwis i dopiero serwis pobiera dane
 
 2 rodzaje component'ów:
  - smart component - zna serwis i wie sk¹d ma pobraæ dane
- - dumb component (prezentacyjny) - 
+ - dumb component (prezentacyjny) - sk³ada siê z InputData i OutputEvent, jest reu¿ywalny
+
+Ctrl+F5 - odœwierzanie cache przegl¹darki. -> jeœli wdra¿amy plik w nowej wersji ale w tej samej nazwie, trzeba zmusiæ przegl¹darkê klienta do prze³adowania nowej wersji pliku w cache
+
+bundleAnalyser plugin
+
+Instalowanie plugins z projektu
+npm i
