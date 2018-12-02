@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39af3a79-dbf1-4eb3-af07-1947796b586f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jswp-backend-babel" beforeDir="false" afterPath="$PROJECT_DIR$/../jswp-backend-babel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jswp-examples/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../jswp-examples/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jswp-examples/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../jswp-examples/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jswp-examples/src/exercises/D-design-patterns/d204-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jswp-examples/src/exercises/D-design-patterns/d204-observer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jswp-design-patterned-front/src/main/observer/observer-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jswp-design-patterned-front/src/main/observer/observer-view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jswp-frontend-webpack" beforeDir="false" afterPath="$PROJECT_DIR$/../jswp-frontend-webpack" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,7 +81,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543758862985" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543759300229" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />

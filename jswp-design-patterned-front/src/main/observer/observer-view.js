@@ -17,6 +17,9 @@ export function observerView () {
     counterWrapper.innerHTML = '';
     counterWrapper.appendChild(h5(users.length));
   });
+
+  let x =0;
+
   return div([
     div([
       listWrapper,
