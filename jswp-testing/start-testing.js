@@ -4,9 +4,9 @@ jasmine.loadConfig({
   spec_dir: 'src',
   spec_files: ['**/*[sS]pec.js'],
   helpers: [],
-  random: false,
+  // random: false,
   seed: null,
-  stopSpecOnExpectationFailure: false
+  // stopSpecOnExpectationFailure: false
 });
 jasmine.jasmine.DEFAULT_TIMEOUT_INTERVAL = 15000;
 

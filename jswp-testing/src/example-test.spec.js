@@ -11,6 +11,21 @@
  * */
 
 describe('purity test', () => {
+   function smartComponents(userService){
+       const  users = userService();
+       return users.map(() => '------ $(user) --------')
+   }
+
+   it('should map all users', () => {
+      const userService = {getAll: () => ('Gosia')}
+      const mappedUsers = smartComponents(userService);
+      expect(mappedUsers).toEqual(['------ Gosia --------']);
+       }
+
+
+
+   )
+
    it('good practices', () => {
      // Arrange (Given)
 

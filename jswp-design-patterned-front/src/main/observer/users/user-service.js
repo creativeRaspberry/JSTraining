@@ -11,5 +11,5 @@ export const userService = {
 
   getAll: () => users$.asObservable(),
   add: (user) => users$.next([...users$.getValue(), user]),
-  countAll: () => users$.asObservable()
+  countAll: () => users$.pipe(map(arrUser => arrUser.length)) .asObservable()
 };

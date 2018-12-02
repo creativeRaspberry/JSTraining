@@ -17,3 +17,23 @@ bundleAnalyser plugin
 
 Instalowanie plugins z projektu
 npm i
+Budowanie projektu
+nm run build
+
+Instalowanie eslint
+npm install -g eslint
+
+Coœ ciekawego do gier RxJS
+https://github.com/benlesh
+
+Jasmine -> framework do testów w JS, konfiguracja testów:
+
+
+jasmine.loadConfig({
+  spec_dir: 'src', //sprawdŸ folder src
+  spec_files: ['**/*[sS]pec.js'], //wszystkie pliki we wszystkich podfolderach od src, które koñcz¹ siê na Spec.js lub na spec.js
+
+
+fetch('http://jsonplaceholder.typicode.com/users')
+.then((res) => res.json())
+.then((data) => console.log(data));
