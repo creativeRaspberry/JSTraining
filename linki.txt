@@ -1,0 +1,12 @@
+https://www.npmjs.com/package/bignumber.js
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
+http://mikemcl.github.io/decimal.js/
+
+biblioteki do clone obiektów: UNDERSCORE, lo dash
+biblioteka do programowania funkcyjnego RAMDA
+
+Angular - component dostaje w dependency serwis i dopiero serwis pobiera dane
+
+2 rodzaje component'ów:
+ - smart component - zna serwis i wie sk¹d ma pobraæ dane
+ - dumb component (prezentacyjny) - 

@@ -12,7 +12,7 @@
 
  Zobacz książkę:
  "Czysty kod. Podręcznik dobrego programisty" - Robert C. Martin
- 
+
  */
 
 function calc(a, b) {
@@ -32,15 +32,22 @@ const obj = {
 
 // Metoda z wieloma parametrami na 1 rzut oka wygląda niegroźnie
 // w momencie deklaracji faktycznie wygląda "składnie"
-function setupUserParams(name, address, sendMails, hasAdminAccount, hasTelephone, hasGMTTimeZone) {
+function setupUserParams(
+    name= '',
+    address = '',
+        sendMails, hasAdminAccount = false, hasTelephone=false, hasGMTTimeZone=false){
   //
   //
   // ...
   // tutaj niżej byłaby jakaś logika....
-}
+};
 
 // problem pojawia się w momencie odczytania kodu gdy ją wywołujemy:
-setupUserParams('Michal', 'michal@test.pl', true, true, true, true);
+// setupUserParams((name: 'Michal',
+//                  address: 'michal@test.pl',
+//                  hasAdminAccount: true,
+//                  hasTelephone: true, hasGMTTimezone: true
+// ));
 
 
 

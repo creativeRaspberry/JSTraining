@@ -42,3 +42,9 @@ const logSuspension = function() {
 const car = makeCar();
 const veh = makeVehicle();
 const monsterTruckCar = makeMonsterTruckCar(makeCar);
+
+console.log(car);
+console.log(veh);
+console.log(monsterTruckCar);
+
+monsterTruckCar.log = logSuspension();

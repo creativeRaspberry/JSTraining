@@ -14,8 +14,13 @@
  #Cel:
  DRY = Dont repeat yourself
  Zauważenie powtarzalności i refaktoryzacja istniejącego kodu
- 
+
  */
+function fetchData(url) {
+    return fetch(url).then(response => response.json())
+}
+
+const prinToConsole = (data) => console.log("Result ${data}.ToString)");
 
 function iWillDoAllTheLogicMyself() {
 
@@ -25,10 +30,26 @@ function iWillDoAllTheLogicMyself() {
     .then((hello) => console.log(`Result ${hello.toString()}`))
 }
 
-function todos() {
+const baseURL = 'https://randomuser.me/api/';
 
-  fetch('https://jsonplaceholder.typicode.com/todos')
-    .then((hello) => console.log(`Result ${hello.toString()}`))
+const toDoService = {
+    getAllTodos(){
+    return fetchData('$(baseURL)/todos/').then(prinToConsole)
+    },
+
+    getTodo(id) {
+        fetchData('$(baseURL)/todos/$(id)')
+            .then(prinToConsole)
+        // fetch('https://jsonplaceholder.typicode.com/todos')
+        //   .then((hello) => console.log(`Result ${hello.toString()}`))
+    }
+};
+
+const userSErvice = {
+  getAll(){
+    fetchData('${baseURL}/users').then(prinToConsole);
+  }
+
 }
 
 function users() {
@@ -42,3 +63,6 @@ function todo1() {
   fetch('https://jsonplaceholder.typicode.com/todos/1')
     .then((hello) => console.log(`Result ${hello.toString()}`))
 }
+
+
+
