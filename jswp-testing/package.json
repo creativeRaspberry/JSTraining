@@ -1,0 +1,20 @@
+{
+  "name": "jswp-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon start-testing.js",
+    "test:once": "node start-testing.js"
+  },
+  "keywords": [],
+  "author": "Michał Jabłoński",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.3.0",
+    "@types/node": "^10.12.10",
+    "jasmine": "^3.3.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "nodemon": "^1.18.6"
+  }
+}
